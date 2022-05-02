@@ -1,0 +1,14 @@
+body {
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#main-container {
+    width: 1024px;
+    height: 4000px;
+    background-color: #8cc3e2;
+}
