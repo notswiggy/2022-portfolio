@@ -19,13 +19,26 @@ header {
     background-color: whitesmoke;
 }
 
-ul {
+nav {
     width: 1024px;
     height: 71px;
     display: flex;
-    
-    justify-content: space-around;
-    flex-direction: row;
     position: fixed;
     background-color: #ffe860;
+}
+
+ul#horizontal-list li {
+    display: inline;
+    margin: 60px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    height: 500px;
+    width: 70px;
+    background-color: #ffe860;
+    font-size: 40px;
+    /* transform: rotate(-90deg); */
+    font-family: 'Montserrat', sans-serif;
 }
