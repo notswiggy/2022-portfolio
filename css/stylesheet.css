@@ -16,7 +16,6 @@ body {
 header {
     height: 365px;
     width: 1024px;
-    background-color: whitesmoke;
 }
 
 nav {
@@ -31,14 +30,21 @@ ul#horizontal-list li {
     display: inline;
     margin: 60px;
     font-size: 18px;
+
     font-family: 'Montserrat', sans-serif;
 }
 
-p {
+h1 {
     height: 500px;
     width: 70px;
+    margin-top: 160px;
     background-color: #ffe860;
     font-size: 40px;
     /* transform: rotate(-90deg); */
     font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    height: 365px;
+    background-color: whitesmoke;
 }
