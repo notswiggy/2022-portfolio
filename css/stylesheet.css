@@ -23,6 +23,7 @@ nav {
     height: 71px;
     display: flex;
     position: fixed;
+    align-items: center;
     background-color: #ffe860;
 }
 
@@ -30,21 +31,30 @@ ul#horizontal-list li {
     display: inline;
     margin: 60px;
     font-size: 18px;
-
     font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
     height: 500px;
     width: 70px;
+    /* padding: 20px; */
     margin-top: 160px;
     background-color: #ffe860;
+}
+
+p.down {
     font-size: 40px;
-    /* transform: rotate(-90deg); */
+    
+    line-height: 35px;
+    transform: rotate(-90deg);
     font-family: 'Montserrat', sans-serif;
 }
 
 footer {
     height: 365px;
     background-color: whitesmoke;
+}
+
+p.footer {
+    justify-content: right;
 }
